@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  
+  /* --------- H E A D E R ----------- */
+  
+  header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+   
+  /* --------- N A V I G A T I O N ----------- */
+  
+  .navigation {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .nav {
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+  }
+  
+  .nav-icon {
+    color: white;
+    display: flex;
+    gap: 20px;
+  }
+
+  #toggle-theme{
+    border: none;
+    padding: 0px 5px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+    color: aliceblue;
+  }
+  
+  .menu {
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  .item {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, blue, aqua, aquamarine);
+  }
+  
+  /* --------- T H E M E ----------- */
+
+  body.light-mode{
+    background-color: white;
+    color: black;
+  }
+
+  body.dark-mode{
+    background-color: black;
+    color: white;
+  }
