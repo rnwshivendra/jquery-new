@@ -78,3 +78,24 @@
     background-color: black;
     color: white;
   }
+
+.main-form-banner{
+  display: none;
+}
+
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+
+  #form{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
