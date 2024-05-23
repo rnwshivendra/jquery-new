@@ -137,9 +137,9 @@
 
   /* ------------ L O G I N - F O R M ------------- */
 
-.main-form-banner{
+/* .main-form-banner{
   display: none;
-}
+} */
 
   form{
     display: flex;
@@ -152,8 +152,7 @@
   #form{
     width: 600px;
     height: 400px;
-    background: transparent;
-    backdrop-filter: blur(50px);
+    background: rgb(120, 120, 254);
     border-radius: 20px;
     display: flex;
     justify-content: center;
