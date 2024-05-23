@@ -1,0 +1,21 @@
+
+h1{
+    color: darkorange;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    background-color:blanchedalmond;
+}
+
+button{
+    width: 100px;
+    padding: 0 5 px;
+    
+}
+

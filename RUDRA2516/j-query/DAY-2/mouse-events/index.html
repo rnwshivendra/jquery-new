@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>context menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      
+    <div class="wrapper">
+        <div class="content">
+        <ul class="menu">
+
+            <li class="item">
+                <i class="fa-light fa-eye"></i> <span> Preview </span>
+            </li>
+
+            <li class="item share">
+                <div>
+                <i class="fa-solid fa-share"></i>  <span>Share</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+                <ul class="share-menu">
+                    <li class="item">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                        </li>
+                    <li class="item">
+                        <i class="fa-brands fa-instagram"></i>
+                       <span> instagram </span>
+                    </li>
+                    <li class="item">
+                        <i class="fa-brands fa-facebook"></i>  <span> FaceBook </span>
+                    </li>
+         
+                </ul>
+            </li>
+            <li class="item">
+                <i class="fa-solid fa-link"></i>
+                <span> Get Link</span>
+                </li>
+            <li class="item">
+                <i class="fas fa-edit"></i>
+               <span> Rename </span>
+            </li>
+            <li class="item">
+                <i class="fa-solid fa-trash"></i>  <span>Delete </span>
+            </li>
+        </ul>
+
+        <div class="setting">
+            <li class="item"><i class="fa-solid fa-gear"></i>
+               <span>Settings </span>
+            </li>
+        </div>
+        </div>
+    </div>
+        
+
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

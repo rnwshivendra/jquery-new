@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 500px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navigation>img{
+    mix-blend-mode: multiply;
+}
+
+.nav>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav>a:hover{
+    color: gray;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+    height: 550px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+
+}
+
+.container>form>.img-adi{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container>form>input{
+    display: flex;
+    margin-top: 30px;
+}
+
+form>input{
+    height: 40px;
+    width: 450px;
+}
+form>h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+form>.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn>button{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+form>input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    outline: none;
+}
+.btn>button>a{
+    color: white;
+    text-decoration: none;
+}
