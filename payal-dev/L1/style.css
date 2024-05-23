@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: crimson;
+    padding: 10px;
+    margin: 10px;
+}
+
+#btn-1{
+    padding: 20px;
+    background-color: pink;
+    text-align: center;
+    color: #fff;
+}
+
+#btn-1:hover{
+    background-color: blueviolet;
+    color: red;
+    transition: color,background-color 2s;
+}
+
+#btn-2{
+    padding: 20px;
+    background-color: pink;
+    text-align: center;
+    color: #fff;
+}
+
+#btn-2:hover{
+    background-color: blueviolet;
+    color: red;
+    transition: color,background-color 2s;
+}
+
