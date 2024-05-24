@@ -13,6 +13,7 @@
     gap: 500px;
     background-color:white;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
 }
 
 .navigation>img{
@@ -37,14 +38,65 @@
     color: gray;
 }
 
-section{
+
+.slider{
+    height: 500px;
+    width: 100%px!important;
+    
+    
+
+    
+
+}
+
+
+.slick-next::before{
+    color: #135af5;
+}
+
+.slick-prev::before{
+    color: #2051e2;
+
+    
+}
+
+
+.slider-container{
+    height: 600px;
+    padding: 32px;
+    
+    
+}
+
+body{
+    background-color: #f9f4f4;
+}
+
+
+
+.banners{
+    height: 500px;
+    width: 100%;
+    
+    display: block;
+}
+
+.banners>img{
+    width: 100%;
+}
+
+
+.form-container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+
 .container{
-    margin-top: 50px;
+    margin-top: 10px;
     height: 550px;
     width: 500px;
     display: flex;
@@ -151,3 +203,4 @@ input[type="checkbox"]:checked + .switch{
 .black{
     background-color: black;
 }
+
