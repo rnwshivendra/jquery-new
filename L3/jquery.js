@@ -2,13 +2,3 @@
 
 
 
-$("button").on("click",function(){
-
-  
-  
-
-   
-      $("#main").fadeToggle(2000);
-  
- 
-})
