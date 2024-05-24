@@ -48,3 +48,14 @@ $(document).ready(function () {
     $("body").removeClass("dark-mode");
   });
 });
+
+
+// ------------ C R O U S A L -------------
+
+$('.hero-crousal').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
