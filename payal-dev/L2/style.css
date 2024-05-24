@@ -1,0 +1,45 @@
+/*mouse-event(contextmenu)*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+form{
+    padding: 10px;
+    line-height: 2rem;
+}
+
+#subm{
+    background-color: palevioletred;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/*mouse-event(dblclick)*/
+
+img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+/*theme dark:light*/
+
+#logo-1{
+    word-spacing: 20px;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+#logo-2{
+    word-spacing: 20px;
+    margin: 20px;
+    font-size: 2.5rem;
+}
