@@ -6,7 +6,7 @@ $(document).ready(function () {
   // ------- expand ---------
 
   $(".fa-user").on("click", function () {
-    $(".main-form-banner").slideDown("slow");
+    $(".form-main-banner").slideDown("slow");
     $(".fa-user").hide();
     $(".fa-xmark").show();
   });
@@ -14,11 +14,28 @@ $(document).ready(function () {
   // ------- collapse ---------
 
   $(".fa-xmark").on("click", function () {
-    $(".main-form-banner").slideUp("slow");
+    $(".form-main-banner").slideUp("slow");
     $(".fa-xmark").hide();
     $(".fa-user").show();
   });
 });
+
+$(document).ready(function(){
+  $('.sign-up').hide();
+
+     
+  $('.btn-1').on('click',function(){
+  $('.sign-in').hide(100);    
+  $('.sign-up').show(100);    
+  $('.form-main-banner').addClass('.sign-up');    
+  });
+
+  $('.btn-2').on('click',function(){
+    $('.sign-up').hide(100);    
+  $('.sign-in').show(100); 
+    $('.form-main-banner').removeClass('.sign-up');     
+  });
+})
 
 // -------- L I G H T - D A R K - M O D E - T H E M E ------------
 

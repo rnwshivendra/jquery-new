@@ -95,54 +95,102 @@ body.dark-mode {
 
 /* ------------ L O G I N - F O R M ------------- */
 
-.main-form-banner {
+.form-main-banner {
   display: none;
 }
 
-form {
+.form-main-banner{
+  border: 1px solid #000;
+  width: 100%;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  gap: 20px;
 }
 
-#form {
-  width: 600px;
-  height: 400px;
-  background-image: url("https://technicaeurope.com/wp-content/uploads/2020/03/3.05-Photo.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(500px);
+form{
+  display: flex;
+  background-color: blueviolet;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 900px;
+  overflow: hidden;
 }
 
-#form > div {
+.sign-in{
+  
+  width: 900px;
+  height: 450px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.changing-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+}
+
+.input{
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 350px;
+  height: 350px;
 }
 
-#form div input {
+input{
   padding: 10px;
   border-radius: 20px;
-  width: 200px;
+}
+
+.sign-in button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
   text-transform: capitalize;
-  border-bottom: 2px solid rgb(255, 255, 255);
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  background-color: white;
+  font-weight: bold;
 }
 
-input::placeholder {
-  font-weight: bolder;
+.sign-in>img{
+  border: 1px solid #000;
+  width: 480px;
+  height: 450px;
+}
+.sign-up>img{
+  border: 1px solid #000;
+  width: 480px;
+  height: 450px;
 }
 
+/* sign-up */
+
+.sign-up{
+  width: 900px;
+  height: 450px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.sign-up button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
+/* ---------- S W A P I N G - B U T T O N ---------- */
 .fa-right-to-bracket {
   display: block;
 }
