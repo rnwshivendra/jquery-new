@@ -10,6 +10,9 @@ $(document).ready(function(){
 });
 
 
+$('.slider').slick();
+
+
 $(document).ready(function(){
 
     $(".btn-s").on("click",function(){
@@ -20,3 +23,7 @@ $(document).ready(function(){
 
     })
 })
+
+
+
+

@@ -1,0 +1,25 @@
+body{
+   
+    padding: 100px;
+}
+
+
+
+.slick-slider{
+   border: 1px solid #000;
+    height: 300px !important;
+    width: 700px !important;
+  
+}
+
+.box{
+    border: 1px solid #000;
+    height: 200px !important;
+    width: 200px !important;
+    margin: 20px;
+}
+
+.slick-arrow{
+    background-color: rgb(163, 7, 7) !important;
+    border-radius: 10px;
+}
