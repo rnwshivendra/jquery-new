@@ -1,0 +1,31 @@
+.cont{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.main-cont{
+    height: 300px;
+    width: 600px;
+    display: flex;
+
+}
+
+.cont>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+
+.slick-prev{
+    color: corol;
+}
