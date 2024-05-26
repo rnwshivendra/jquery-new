@@ -25,14 +25,14 @@ $(document).ready(function(){
 
      
   $('.btn-1').on('click',function(){
-  $('.sign-in').hide(100);    
-  $('.sign-up').show(100);    
+  $('.sign-in').hide(150);    
+  $('.sign-up').show(150);    
   $('.form-main-banner').addClass('.sign-up');    
   });
 
   $('.btn-2').on('click',function(){
-    $('.sign-up').hide(100);    
-  $('.sign-in').show(100); 
+    $('.sign-up').hide(150);    
+  $('.sign-in').show(150); 
     $('.form-main-banner').removeClass('.sign-up');     
   });
 })
