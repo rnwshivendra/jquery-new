@@ -6,7 +6,7 @@ $(document).ready(function () {
   // ------- expand ---------
 
   $(".fa-user").on("click", function () {
-    $(".form-main-banner").slideDown("slow");
+    $(".form-main-banner").slideDown("fast");
     $(".fa-user").hide();
     $(".fa-xmark").show();
   });
@@ -14,10 +14,11 @@ $(document).ready(function () {
   // ------- collapse ---------
 
   $(".fa-xmark").on("click", function () {
-    $(".form-main-banner").slideUp("slow");
+    $(".form-main-banner").slideUp("fast");
     $(".fa-xmark").hide();
     $(".fa-user").show();
   });
+
 });
 
 $(document).ready(function(){
@@ -75,4 +76,17 @@ $('.hero-crousal').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
+  dots: true,
+  arrows:false,
+});
+
+
+
+// --------------- C O U N T E R - U P --------------
+
+$(document).ready(function() {
+  $('.counter').counterUp({
+  delay: 50, 
+  time: 2000,
+});
 });
