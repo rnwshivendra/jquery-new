@@ -1,194 +1,362 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  
-  /* body{
-    background-image: url('https://i.pinimg.com/originals/cd/8c/2a/cd8c2acc588fc333906492703593cb56.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  } */
-  
-  /* --------- H E A D E R ----------- */
-  
-  header {
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-  }
-   
-  /* --------- N A V I G A T I O N ----------- */
-  
-  .navigation {
-    background-color: darkblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    font-size: 1rem;
-  }
-  .nav {
-    display: flex;
-  }
-  
-  a {
-    text-decoration: none;
-    color: aliceblue;
-    text-transform: capitalize;
-  }
-  
-  .nav-icon {
-    color: white;
-    display: flex;
-    gap: 20px;
-  }
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 
-  #toggle-theme{
-    border: none;
-    padding: 0px 5px;
-    border-radius: 20px;
-    text-transform: capitalize;
-    width: 100px;
-    cursor: pointer;
-  }
+/* ------------ B O D Y ------------ */
 
-  /* ----------- T O G G L E - S W I T C H ------------ */
+body {
+  background-image: url("./images/Desktop\ -\ 2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 18px;
-  }
-  
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-    border-radius: 20px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 10px;
-    width: 10px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 20px;
-  }
-  
-  input:checked + .slider {
-    background-color: #fbff00;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(20px);
-  }
+/* --------- H E A D E R ----------- */
 
-  /* --------------T O G G L E - S W I T C H - E N D ---------------- */
-  
-  
-  li {
-    list-style: none;
-    color: aliceblue;
-  }
-  
-  .menu {
-    display: inline-block;
-    padding: 10px 15px;
-    text-align: center;
-  }
-  
-  .item {
-    display: none;
-    position: absolute;
-    padding: 20px;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, blue, aqua, aquamarine);
-  }
-  
-  /* --------- T H E M E ----------- */
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
 
-  body.light-mode{
-    background-color: white;
-    color: black;
-  }
+/* --------- N A V I G A T I O N ----------- */
 
-  body.dark-mode{
-    background-color: black;
-    color: white;
-  }
+.navigation {
+  background-image: url('./images/Desktop\ -\ 2.png');
+  backdrop-filter: blur(500px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 1rem;
+  user-select: none;
+}
+.nav {
+  display: flex;
+}
 
-  /* ------------ L O G I N - F O R M ------------- */
-
-/* .main-form-banner{
-  display: none;
-} */
-
-  form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 20px;
-  }
-
-  #form{
-    width: 600px;
-    height: 400px;
-    background: rgb(120, 120, 254);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #form>div{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  #form div input{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    text-transform: capitalize;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    background: none;
-    color: white;
-  }
-
-input::placeholder{
+a {
+  text-decoration: none;
   color: white;
+  text-transform: capitalize;
   font-weight: bolder;
 }
 
-   .fa-right-to-bracket {
-    display: block;
-  }
+.nav-icon {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
 
-  .fa-sun{
-    display: block;
-  }
+#toggle-theme {
+  border: none;
+  padding: 0px 5px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  width: 100px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+}
+
+.menu {
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.item {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, blue, aqua, aquamarine);
+}
+
+.fa-dice-d20{
+  font-size: large;
+  color: white;
+}
+
+/* --------- T H E M E ----------- */
+
+body.light-mode {
+  background-color: white;
+  color: white;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* ------------ L O G I N - F O R M ------------- */
+
+.form-main-banner {
+  display: none;
+}
+
+.form-main-banner{
+  width: 100%;
+  height: 500px;
+}
+
+.login-out-page{
+  margin: auto;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.274);
+  backdrop-filter: 20px;
+  border-radius: 20px;
+  width: 900px;
+  overflow: hidden;
+}
+
+.sign-in{
   
- 
+  width: 900px;
+  height: 450px;
+  display: flex;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 450px;
+  height: 450px;
+}
+
+.login-icons{
+  display: flex;
+  gap: 30px;
+  user-select: none;
+}
+
+input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.sign-in button{
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* sign-up */
+
+.sign-up{
+  width: 900px;
+  height: 450px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.sign-up button{
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.image-1{
+  background-image: url('./images/Image2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  color: white;
+}
+
+.form-content{
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: larger;
+  padding: 0px 40px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.652);
+}
+
+.image-2{
+  background-image: url('./images/iamge5.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  color: white; 
+}
+
+.btn-1, .btn-2{
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ---------- S W A P I N G - B U T T O N ---------- */
+.fa-right-to-bracket {
+  display: block;
+}
+
+.fa-sun {
+  display: block;
+}
+
+/* ----------- H E R O - C O N T A I N E R ------------- */
+
+.hero-images {
+  background-image: url("./images/background-image-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 400px;
+  height: 300px;
+  margin-left: 10%;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+/* ---------- C R O U S A L ---------------*/
+
+.crousal-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: capitalize;
+  font-size: x-large;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-crousal{
+  width: 95%;
+  height: 500px;
+}
+
+.main-crousal{
+  width: 400px !important;
+  height: 400px !important;
+  background-image: url('./images/Desktop\ -\ 2.png');
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(200px); 
+  display: flex !important;
+  gap: 20px;
+  border-radius: 20px;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 10px 40px;
+  text-transform: capitalize;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main-crousal>img{
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 20px;
+}
+
+/* ----------- C O U N T E R - U P ----------- */
+
+.count-box{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-box>#box1{
+  height: 250px;
+  width: 300px;
+  background-image: url('./images/Desktop\ -\ 2.png');
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.count-box>#box1>.counter{
+  color: white;
+  margin-top: 10px;
+}
+.count-box>#box1>p{
+  color: white;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.fa-gamepad{
+  color: white;
+  font-size: 2rem;
+  padding: 2px;
+}
+
+.fa-users{
+  color: white;
+  font-size: 2rem;
+}
+
+.fa-people-group{
+  color: white;
+  font-size: 2rem;
+}
+
+.fa-earth-americas{
+  color: white;
+  font-size: 2rem;
+}

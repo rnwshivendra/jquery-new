@@ -6,7 +6,7 @@ $(document).ready(function () {
   // ------- expand ---------
 
   $(".fa-user").on("click", function () {
-    $(".main-form-banner").slideDown("slow");
+    $(".form-main-banner").slideDown("fast");
     $(".fa-user").hide();
     $(".fa-xmark").show();
   });
@@ -14,11 +14,29 @@ $(document).ready(function () {
   // ------- collapse ---------
 
   $(".fa-xmark").on("click", function () {
-    $(".main-form-banner").slideUp("slow");
+    $(".form-main-banner").slideUp("fast");
     $(".fa-xmark").hide();
     $(".fa-user").show();
   });
+
 });
+
+$(document).ready(function(){
+  $('.sign-up').hide();
+
+     
+  $('.btn-1').on('click',function(){
+  $('.sign-in').hide(150);    
+  $('.sign-up').show(150);    
+  $('.form-main-banner').addClass('.sign-up');    
+  });
+
+  $('.btn-2').on('click',function(){
+    $('.sign-up').hide(150);    
+  $('.sign-in').show(150); 
+    $('.form-main-banner').removeClass('.sign-up');     
+  });
+})
 
 // -------- L I G H T - D A R K - M O D E - T H E M E ------------
 
@@ -47,4 +65,28 @@ $(document).ready(function () {
     $(".fa-sun").show();
     $("body").removeClass("dark-mode");
   });
+});
+
+
+// ------------ C R O U S A L -------------
+
+$('.hero-crousal').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  dots: true,
+  arrows:false,
+});
+
+
+
+// --------------- C O U N T E R - U P --------------
+
+$(document).ready(function() {
+  $('.counter').counterUp({
+  delay: 50, 
+  time: 2000,
+});
 });
