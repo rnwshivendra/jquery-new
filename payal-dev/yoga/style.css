@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #639edb;
+    padding: 20px;
+}
+
+.logo{
+    color: #fff;
+}
+
+#one{
+    color: #fff;
+}
+span{
+    cursor: pointer;
+}
+
+/*navigation*/
+.navbar{
+    background-color: #2e2822;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.logo-1{
+    color: #fff;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: pink;
+}
+
+button{
+    background-color: skyblue;
+    padding: 10px;
+    color: #fff;
+}
+button:hover{
+    color: yellow;
+}
+/*main-cont*/
+.skin>img{
+    width: 100%;
+    position: relative;
+}
+
+#two{
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    color: #fff;
+    font-size: 2rem;
+}
+#three{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    font-size: 2rem;
+}
+#four{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+#five{
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+/*about*/
+.abt-1{
+    display: flex;
+    padding:50px;
+    position: relative;
+}
+.abt-1>img{
+    height: 500px;
+    width: 400px;
+    margin: 50px;
+
+}
+.sty{
+    background-color: #dceeff;
+    position: absolute;
+    top: 150px;
+    right:350px;
+    height: 400px;
+    width: 500px;
+}
+.sty>h3{
+    color: skyblue;
+    padding: 20px;
+}
+
+.sty>h1{
+    padding:10px;
+}
+.sty>p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: small;
+    line-height: 20px;
+}
+.sty>button{
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+/*slider-cont*/
+.slide{
+    background-color: #dceeff;
+    height: 600px;
+    width: 100%;
+}
+
+.slide>p{
+    color: #639edb;
+    text-align: center;
+    padding: 20px;
+}
+
+.slide>h2{
+    text-align: center;
+}
+.box>img{
+    height: 400px;
+    width: 300px;
+}
+.slider{
+    overflow-x: hidden;
+}
+.s-cont{
+    background-color:pink;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    margin: 5px; 
+}
+
+.s-cont>h3{
+    color: #fff;
+}
+
+.s-cont>span{
+    color: #2e2822;
+}
+
+/*blog*/
+.blog{
+    height: 1000px;
+    width: 300px;
+    position: relative;
+}
+.blog>p,h1{
+    color: #dceeff;
+}
+
+.healthy-mind{
+    background-color: #dceeff;
+    width: 375.33px;
+    height: 538.7px;
+    margin: 25px;
+}
+.healthy-mind>img{
+    height: 291.5px;
+    width: 375.33px;
+}
+.healthy-mind>p{
+    color: #639edb;
+    margin: 10px;
+}
+.healthy-mind>i{
+    color: #639edb;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+}
+.healthy-mind>h2{
+    color: #2e2822;
+    font-style: italic;
+    padding: 20px;
+}
+.healthy-mind>h2:hover{
+    color: #102943;
+    cursor: pointer;
+}
+.healthy-mind>h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.handmade>img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+}
+.h-cont{
+    background-color: #dceeff;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    height: 250px;
+    width: 250px;
+}
+.h-cont>p{
+    padding: 10px;
+    color: #639edb;
+}
+.h-cont>i{
+    padding: 10px;
+    color: #639edb;
+}
+.h-cont>h2{
+    padding: 5px;
+    font-style: italic;
+}
+.h-cont>h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.daily-rou>img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    top: 430px;
+
+}
+.d-cont{
+    background-color: #dceeff;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 430px;
+    left: 720px;
+}
+.d-cont>p{
+    padding: 10px;
+    color: #639edb;
+}
+.d-cont>i{
+    padding: 10px;
+    color: #639edb;
+}
+.d-cont>h2{
+    padding: 5px;
+    font-style: italic;
+}
+.d-cont>h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
