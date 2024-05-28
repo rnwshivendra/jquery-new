@@ -1,8 +1,9 @@
 #main{
+
     width: 200px;
     height: 200px;
     border: 1px solid #000;
-  
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,19 +11,29 @@
 
 body{
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .yellow{
-    padding: 40px;
+   
     background-color: yellow;
 }
 
 .red{
-    padding: 10px;
+  
     background-color: red;
   
 }
 
+
+
+
+.cont{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+.cont{
+    padding: 50px;
+}
