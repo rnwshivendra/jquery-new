@@ -5,3 +5,14 @@ $('.slider').slick({
     autoplay: true,
     autoplaySpeed: 1000,
   });
+
+  //headline.js
+$(function() {
+  $('.products').animatedHeadline();
+})
+
+$(function() {
+  $('.testimonial').animatedHeadline({
+    animationType: 'slide'
+  });
+})
