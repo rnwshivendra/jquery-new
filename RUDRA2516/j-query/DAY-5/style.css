@@ -1,0 +1,11 @@
+.swiper {
+    width: 400px;
+    height: 300px;
+
+  }
+  
+  .swiper-slide{
+    object-fit: cover;
+    object-position: center;
+  }
+  
