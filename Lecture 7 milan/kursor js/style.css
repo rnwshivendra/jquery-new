@@ -1,0 +1,22 @@
+span:nth-child(1){
+    color:chartreuse;
+}
+span:nth-child(2){
+    color: crimson;
+}
+span:nth-child(3){
+    color:darkorange;
+}
+span:nth-child(4){
+    color:dodgerblue;
+}
+span:nth-child(5){
+    color:darkgreen;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
