@@ -272,3 +272,45 @@ input[type="checkbox"]:checked + .switch{
 .fa-star{
     color: orange;
 }
+
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 250px;
+    background-position: center;
+}
+
+.countdown-container>h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#getting-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.single-countdown{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    height: 80px;
+    width: 100px;
+    background-color: #000;
+    color: white;
+    margin-top: 10px;
+}
+

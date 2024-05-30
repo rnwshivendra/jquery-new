@@ -43,6 +43,9 @@ $('.men-wear').slick({
   });
                   
   
+$('.btn').on('click',function(){
+    alert('you have login successfully! ')
+})
 
 
-
+    

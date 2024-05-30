@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    padding: 15px;
+    border: 0px;
+    border: 2px solid rgb(0, 100, 200);
+    color: rgb(0, 100, 200);
+    transition: all .25s ease;
+    background: transparent
+  }
+
+  button:hover {
+    background: rgb(0, 100, 200);
+    color: rgb(255,255,255);
+  }

@@ -261,6 +261,14 @@
             </div>
           </div>
         </div>
+
+
+        <div class="countdown-container">
+          <h2>Mega Sale</h2>
+          <div id="getting-started"></div>
+
+        </div>
+
       </section>
     </main>
 
@@ -269,6 +277,14 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./jQuery.countdown-master/dist/jquery.countdown.min.js"></script>
+    <script src="./jQuery.countdown-master/dist/jquery.countdown.js"></script>
+    <script type="text/javascript">
+      $('#getting-started').countdown('2024/05/29', function(event) {
+        $(this).html(event.strftime('%D days %H:%M:%S'));
+        $(this).html(event.strftime('<div class="single-countdown"><h2>%D</h2><span>Days</span></div> <div class="single-countdown"><h2>%H</h2><span>Hours</span></div> <div class="single-countdown"><h2>%M</h2><span>Minutes</span></div> <div class="single-countdown"><h2>%S</h2><span>Seconds</span></div>'));
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>
