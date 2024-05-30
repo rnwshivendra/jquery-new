@@ -4,3 +4,7 @@
     left: 40%;
     
 }
+
+#particles-js:hover{
+    z-index: 10;
+}
