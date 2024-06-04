@@ -12,6 +12,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; 
+  position: relative;
 }
 
 /* --------- H E A D E R ----------- */
@@ -101,13 +102,15 @@ body.dark-mode {
 
 /* ------------ L O G I N - F O R M ------------- */
 
-.form-main-banner {
-  display: none;
-}
-
 .form-main-banner{
   width: 100%;
-  height: 500px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(150, 150, 150, 0.44);
+  backdrop-filter: blur(50px);
+  top: 60px;
+  position: absolute;
 }
 
 .login-out-page{

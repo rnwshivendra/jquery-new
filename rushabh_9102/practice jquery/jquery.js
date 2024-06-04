@@ -21,9 +21,14 @@
 
 // });
 
+$(".form-main-banner").hide();
+
 $(document).ready(function() {
   $(".fa-user").on("click",function() {
     $(".form-main-banner").fadeIn();
+    $(".form-main-banner").css("position","fixed");
+    $(".form-main-banner").css("z-index","9");
+
   });
 
   $(".fa-xmark").on("click",function() {
@@ -42,14 +47,14 @@ $(document).ready(function(){
 
      
   $('.btn-1').on('click',function(){
-  $('.sign-in').hide(150);    
-  $('.sign-up').show(150);    
+  $('.sign-in').fadeOut(150);    
+  $('.sign-up').fadeIn(150);    
   $('.form-main-banner').addClass('.sign-up');    
   });
 
   $('.btn-2').on('click',function(){
-    $('.sign-up').hide(150);    
-  $('.sign-in').show(150); 
+    $('.sign-up').fadeOut(150);    
+  $('.sign-in').fadeIn(150); 
     $('.form-main-banner').removeClass('.sign-up');     
   });
 })
