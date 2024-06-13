@@ -27,7 +27,7 @@ header {
 
 .navigation {
   background-image: url('./images/Desktop\ -\ 2.png');
-  backdrop-filter: blur(500px);
+  backdrop-filter: blur(50px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ input{
   background-image: url('./images/Desktop\ -\ 2.png');
   background-position: center;
   background-size: cover;
-  backdrop-filter: blur(200px); 
+  backdrop-filter: blur(50px); 
   display: flex !important;
   gap: 20px;
   border-radius: 20px;

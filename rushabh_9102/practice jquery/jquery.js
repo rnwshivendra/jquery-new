@@ -1,25 +1,4 @@
-// -------L O G I N - F O R M ---------
-
-// $(document).ready(function () {
-//   $(".fa-xmark").hide();
-
-//   // ------- expand ---------
-
-//   $(".fa-user").on("click", function () {
-//     $(".form-main-banner").slideDown("fast");
-//     $(".fa-user").hide();
-//     $(".fa-xmark").show();
-//   });
-
-//   // ------- collapse ---------
-
-//   $(".fa-xmark").on("click", function () {
-//     $(".form-main-banner").slideUp("fast");
-//     $(".fa-xmark").hide();
-//     $(".fa-user").show();
-//   });
-
-// });
+// ----------- M O D A L - L O G I N - F O R M -----------
 
 $(".form-main-banner").hide();
 
@@ -95,8 +74,6 @@ $('.hero-crousal').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
   dots: true,
   arrows:false,
 });
